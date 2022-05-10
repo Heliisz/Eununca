@@ -1,0 +1,44 @@
+div#copoext{
+    
+}
+div#copoint{
+       
+       
+    position: relative;
+    top: 35%;
+    left: center;
+   
+
+
+}
+body{
+        
+
+    background:rgb(238, 255, 255) ;
+    text-align: center;
+    
+}
+div#area{
+    background: rgb(238, 255, 255);
+    color:rgb(0, 0, 0);
+    height: 90vh;
+    margin: 0 auto 0 auto;
+    position: relative;
+    
+}
+h3#frase{
+    font: normal 300% cursive;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto 0 auto;
+
+}
+#instrucao{
+    font: normal 130% Courier New;
+    position: relative;
+    top: 35%;
+}
+
+}
