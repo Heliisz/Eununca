@@ -1,38 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Eu nunca2.5.css">
     <title>Eu nunca</title>
     <style>
-        body{
-            background:rgb(5, 5, 5) ;
-            text-align: center;
-            
-        }
-        div#area{
-            background: rgb(58, 56, 56);
-            color:white;
-            height: 80vh;
-            margin: 0 auto 0 auto;
-            position: relative;
-        }
-        h3#frase{
-            font: normal 40px Courier New;
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%,-50%)
-        }
-    
+               
     </style>
+
 </head>
 <body>
+    
         <div id = "area" >
-        <h3 id = "frase">Clique para jogar eu nunca </h3>   
+        <h3 id = "frase">Clique para jogar eu nunca </h3> 
+        <div id = "copoint">
+            <img src="tequila.gif" width="25%">  
     </div>
+    
+      
 
     <script>
         let area = document.getElementById('area');
@@ -49,7 +36,58 @@
     'Eu nunca matei aula.',
     'Eu nunca reprovei na escola.',
     'Eu nunca pulei o muro de casa.',
-    'Eu nunca virei a noite.'
+    'Eu nunca virei a noite.',
+    'Eu nunca apareci na TV.',
+    'Eu nunca chorei no transporte público.',
+    'Eu nunca comi a comida que alguém largou na área de alimentação do shopping.',
+    'Eu nunca acompanhei a vida de alguém/fui stalker nas redes sociais.',
+    'Eu nunca desmaiei.',
+    'Eu nunca dormi na rua.',
+    'Eu nunca dormi no ônibus e perdi o meu ponto.',
+    'Eu nunca criei uma conta falsa nas redes sociais.',
+    'Eu nunca enviei flores.',
+    'Eu nunca recebi flores.',
+    'Eu nunca tive um perfil de rede social invadido.',
+    'Eu nunca chorei no trabalho.',
+    'Eu nunca falsifiquei uma carteirinha de estudante.',
+    'Eu nunca me apaixonei por um(a) professor(a).',
+    'Eu nunca fiquei com medo de dormir após ver um filme de terror.',
+    'Eu nunca fiquei preso(a) no elevador.',
+    'Eu nunca passei a madrugada trocando mensagens com alguém.',
+    'Eu nunca fui ignorado no WhatsApp por alguém que eu gostava.',
+    'Eu nunca fui assaltado(a).',
+    'Eu nunca fui demitido(a).',
+    'Eu nunca fui expulso(a) de uma festa.',
+    'Eu nunca fui parado(a) por policiais.',
+    'Eu nunca me gabei por algo que não fiz.',
+    'Eu nunca menti minha idade para entrar numa festa.',
+    'Eu nunca menti que meu nome era outro.',
+    'Eu nunca pintei o cabelo de alguma cor estranha.',
+    'Eu nunca tentei cortar meu próprio cabelo.',
+    'Eu nunca tive o meu nome "sujo".',
+    'Eu nunca tive paralisia do sono.',
+    'Eu nunca tive uma experiência paranormal.',
+    'Eu nunca vomitei na frente de outras pessoas.',
+    'Eu nunca andei a cavalo.',
+    'Eu nunca cantei em um karaokê na frente de várias pessoas.',
+    'Eu nunca acabei com todo o meu salário uma semana após receber.',
+    'Eu nunca passei o número de telefone errado de propósito.',
+    'Eu nunca peguei carona com estranhos.',
+    'Eu nunca viajei para fora do país.',
+    'Eu nunca peguei dinheiro na bolsa dos meus pais sem eles saberem.',
+    'Eu nunca fugi de casa quando era criança.',
+    'Eu nunca entrei no mar ou na piscina de roupa.',
+    'Eu nunca menti para meus pais sobre aonde estava indo.',
+    'Eu nunca corri uma maratona.',
+    'Eu nunca usei a escova de dentes de outra pessoa.',
+    'Eu nunca trapaceei em um jogo de cartas.',
+    'Eu nunca pesquisei meu nome no Google.',
+    'Eu nunca vi uma temporada inteira de uma série em apenas um dia.',
+    'Eu nunca fui ao cinema sozinho(a).',
+    'Eu nunca tive uma festa surpresa.',
+    'Eu nunca comi caviar.',
+    'Eu nunca vi neve pessoalmente',
+    
 ];
 function gerarFrase(){
     const index = Math.floor(Math.random() * perguntas.length);
@@ -57,5 +95,11 @@ function gerarFrase(){
 }
        area.addEventListener('click',gerarFrase);
     </script>
+    <div id="instrucao">
+        <p> Jogue sozinho ou com os amigos! </p>
+        <p>Pegue a sua bebida favorita e a cada coisa que você já fez tome uma dose!</p>
+        <p>Boa diversão :)</p>
+    </div>
 </body>
 </html>
+
